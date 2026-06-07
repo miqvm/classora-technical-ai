@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain-mcp-adapters = "*"
+fastmcp = "*"
+langchain = "*"
+langchain-anthropic = "*"
+langchain-openai = "*"
+mcp = "*"
+langchain-community = "*"
+python-dotenv = "*"
+pytest = "*"
+pytest-asyncio = "*"
+
+[requires]
+python_version = "3.14"
+
+[dev-packages]
