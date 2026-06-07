@@ -4,16 +4,16 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-langchain-mcp-adapters = "*"
-fastmcp = "*"
-langchain = "*"
-langchain-anthropic = "*"
-langchain-openai = "*"
-mcp = "*"
-langchain-community = "*"
-python-dotenv = "*"
-pytest = "*"
-pytest-asyncio = "*"
+langchain-mcp-adapters = "==0.2.2"
+fastmcp = "==3.4.2"
+langchain = "==1.3.4"
+langchain-anthropic = "==1.4.4"
+langchain-openai = "==1.2.2"
+mcp = "==1.27.2"
+langchain-community = "==0.4.2"
+python-dotenv = "==1.2.2"
+pytest = "==9.0.3"
+pytest-asyncio = "==1.4.0"
 
 [requires]
 python_version = "3.14"

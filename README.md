@@ -93,7 +93,7 @@ python src/client.py
 **What happens during client execution:**
 
 1. The client connects to the local MCP server and dynamically queries its available tools.
-2. The LangChain agent (powered by `gpt-4o-mini`) is instructed to analyze the IP `8.8.8.8`.
+2. The LangChain agent (powered by `gpt-5.4-mini`) is instructed to analyze the IP `8.8.8.8`.
 3. The LLM intelligently calls `analyze_ioc`, receives a UUID, and automatically follows up by calling `get_threat_context` using that UUID.
 4. **Senior Task:** The client finally reads from the `log://analyzed_iocs` resource URI to output the backend logs of the current session.
 

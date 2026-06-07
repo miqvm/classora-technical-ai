@@ -23,7 +23,7 @@ async def main():
     tools = await client.get_tools()
 
     # Instantiate the LLM (API key is loaded from .env automatically)
-    llm = ChatOpenAI(model="gpt-5.5", temperature=0)
+    llm = ChatOpenAI(model="gpt-5.4-mini", temperature=0)
 
     # Create the agent using the LLM object and the fetched tools
     agent = create_agent(llm, tools)
